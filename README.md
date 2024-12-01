@@ -15,15 +15,26 @@ This project aims in leveraging machine learning to analyze and classify paragra
 ---
 
 ## 📊 Dataset Description  
-The dataset used in this project includes textual content and their corresponding labels for classification.
+The dataset provided for this project contains the following features, each contributing unique insights for text classification. Below is a brief description of each feature:.
 
-| Feature Name        | Description |    
-|---------------------|-------------|
-| Logistic Regression | xx%         | 
-| Naive Bayes         | xx%         | 
-| LSTM                | xx%         | 
-| BERT                | xx%         | 
-
+| Feature Name        | Description                                                                                      |    
+|---------------------|--------------------------------------------------------------------------------------------------|
+| par_id              | A unique identifier for each paragraph to be classified.                                         | 
+| paragraph           | The main textual content to classify, varying in length and complexity.                          | 
+| has_entity          | Binary indicators specifying whether the paragraph references:                                   | 
+|                     | - Product (```yes/no```)                                                                         | 
+|                     | - Organisation (```yes/no```)                                                                    |
+|                     | - Person (```yes/no```)                                                                          |
+| lexicon_count       | The total number of words in the paragraph, providing an idea of its length.                     |
+| difficult_words     | The number of challenging words in the text, based on a predefined lexicon of difficult terms.   |
+| last_editor_gender  | The gender of the last person who edited the paragraph, offering potential demographic insights. |
+| category            | The target classification label for the text, representing one of the five specific topics:      |
+|                     | - Artificial Intelligence                                                                        |
+|                     | - Movies about Artificial Intelligence                                                           |
+|                     | - Programming                                                                                    |
+|                     | - Philosophy                                                                                     |
+|                     | - Biographies                                                                                    |
+| text_clarity        | A qualitative measure of the text's clarity level; initially sparse in labeled data.             | 
 
 ### Dataset Features:  
 - **Text**: The primary input data to be classified.  
