@@ -81,22 +81,21 @@ The dataset provided for this project contains the following features, each cont
 Implemented and evaluated multiple models:  
 
 1. **Baseline Models**:  
-   - Logistic Regression, Naive Bayes, Random Forest.  
+   - Random Trivial Baseline.  
 
 2. **Advanced Models**:  
-   - LSTMs and Transformers (e.g., BERT).  
+   - SGDClassifier and MultinomialNB.  
 
 ### Model Performance:  
-| Model               | Accuracy | Precision | Recall | F1-Score |  
-|---------------------|----------|-----------|--------|----------|  
-| Logistic Regression | xx%      | xx%       | xx%    | xx%      |  
-| Naive Bayes         | xx%      | xx%       | xx%    | xx%      |  
-| LSTM                | xx%      | xx%       | xx%    | xx%      |  
-| BERT                | xx%      | xx%       | xx%    | xx%      |  
+| Categories                            | Precision | Recall | F1-Score |  
+|---------------------------------------|-----------|--------|----------|  
+| artificial intelligence               |  0.90     | 0.93   | 0.91     |  
+| biographies                           |  0.94     | 0.92   | 0.93     |  
+| movies about artificial intelligence  |  0.93     | 1.00   | 0.97     |
+| philosophy                            |  0.93     | 0.91   | 0.92     |
+| programming                           |  0.95     | 0.99   | 0.97     |
+
 
 ---
 
 ## 🔬 Results and Insights  
-- Identified [highlight major findings, such as "BERT outperformed traditional models with an accuracy of 95%"].  
-- Addressed data imbalances using oversampling techniques or class weights.  
-- Optimized feature engineering to improve classifier performance.  
