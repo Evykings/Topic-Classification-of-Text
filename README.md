@@ -39,9 +39,7 @@ The dataset provided for this project contains the following features, each cont
 ### Dataset Features:  
 - **Text**: The primary input data to be classified.  
 - **Label**: The target variable indicating the class of each text.  
-
-### Source:  
-The dataset is sourced from [public datasets like Kaggle, UCI, etc., or specify your source if applicable].  
+  
 
 ### Dataset Statistics:  
 - **Number of Samples**: [ 9347 records]  
@@ -52,8 +50,10 @@ The dataset is sourced from [public datasets like Kaggle, UCI, etc., or specify 
 
 ## 🔍 Exploratory Data Analysis (EDA)  
 - Explored text length distributions, word frequency analysis, and class distributions.  
-- Visualized insights using word clouds and bar plots.  
-- Uncovered potential data imbalances and prepared for feature engineering.
+- Visualized insights using and bar plots.
+![alt text](https://github.com/Evykings/Topic-Classification-of-Text/blob/main/distribution%20of%20category.png)
+![alt text](https://github.com/Evykings/Topic-Classification-of-Text/blob/main/distribution%20of%20gender.png)
+![alt text](https://github.com/Evykings/Topic-Classification-of-Text/blob/main/tc.png)
 
 ---
 
