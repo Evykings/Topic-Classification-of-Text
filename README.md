@@ -4,18 +4,26 @@ A Data Science project leveraging Machine Learning and Natural Language Processi
 ---
 
 ## 📝 Project Overview  
-Text classification is a fundamental task in NLP with applications ranging from sentiment analysis to spam detection. This project explores a robust approach to text classification by applying machine learning algorithms to process and categorize textual data efficiently.
+This project aims in leveraging machine learning to analyze and classify paragraph-sized text submissions into specific topics. By automating this process, the organization can better categorize content and enhance user experience on their platform. This project explores a robust approach to text classification by applying machine learning algorithms to process and categorize textual data efficiently.
 
 ### Key Objectives:  
-- **Preprocessing textual data**: Tokenization, stop-word removal, stemming/lemmatization.  
+- **Preprocessing textual data**: Tokenization, stop-word removal, lemmatization.  
 - **Feature extraction**: Leveraging TF-IDF and word embeddings for vector representation.  
-- **Modeling**: Training machine learning classifiers (e.g., Logistic Regression, Naive Bayes) and deep learning models (e.g., LSTMs, BERT).  
+- **Modeling**: Training machine learning classifiers (SGDClassifier and MultinomialNB).  
 - **Evaluation**: Assessing model performance using metrics like accuracy, precision, recall, and F1-score.  
 
 ---
 
 ## 📊 Dataset Description  
-The dataset used in this project includes textual content and their corresponding labels for classification.  
+The dataset used in this project includes textual content and their corresponding labels for classification.
+
+| Feature Name        | Description |    
+|---------------------|-------------|
+| Logistic Regression | xx%         | 
+| Naive Bayes         | xx%         | 
+| LSTM                | xx%         | 
+| BERT                | xx%         | 
+
 
 ### Dataset Features:  
 - **Text**: The primary input data to be classified.  
