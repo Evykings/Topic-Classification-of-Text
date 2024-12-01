@@ -86,7 +86,7 @@ Implemented and evaluated multiple models:
 2. **Advanced Models**:  
    - SGDClassifier and MultinomialNB.  
 
-### Model Performance:  
+### 🔬 SGDClassifier Model Performance :  
 | Categories                            | Precision | Recall | F1-Score |  
 |---------------------------------------|-----------|--------|----------|  
 | artificial intelligence               |  0.90     | 0.93   | 0.91     |  
@@ -95,7 +95,21 @@ Implemented and evaluated multiple models:
 | philosophy                            |  0.93     | 0.91   | 0.92     |
 | programming                           |  0.95     | 0.99   | 0.97     |
 
+### Confusion Matrix
+![alt text](https://github.com/Evykings/Topic-Classification-of-Text/blob/main/confusion%20matrix%20for%20sgd.png)
+
+
+### 🔬 MultinomialNB Model Performance :  
+| Categories                            | Precision | Recall | F1-Score |  
+|---------------------------------------|-----------|--------|----------|  
+| artificial intelligence               |  0.89     | 0.92   | 0.90     |  
+| biographies                           |  0.92     | 0.89   | 0.91     |  
+| movies about artificial intelligence  |  0.96     | 0.96   | 0.96     |
+| philosophy                            |  0.90     | 0.90   | 0.90     |
+| programming                           |  0.95     | 0.97   | 0.96     |
+
+### Confusion Matrix
+![alt text](https://github.com/Evykings/Topic-Classification-of-Text/blob/main/confusion%20matrix%20for%20MultinomialNB.png)
 
 ---
-
-## 🔬 Results and Insights  
+ 
