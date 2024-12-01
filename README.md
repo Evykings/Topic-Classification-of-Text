@@ -44,8 +44,8 @@ The dataset provided for this project contains the following features, each cont
 The dataset is sourced from [public datasets like Kaggle, UCI, etc., or specify your source if applicable].  
 
 ### Dataset Statistics:  
-- **Number of Samples**: [e.g., 10,000 records]  
-- **Number of Classes**: [e.g., 5 categories]  
+- **Number of Samples**: [ 9347 records]  
+- **Number of Classes**: [ 5 categories]  
 - **Class Distribution**: Visualized in the EDA section below.  
 
 ---
